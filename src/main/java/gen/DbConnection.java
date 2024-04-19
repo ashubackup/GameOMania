@@ -12,7 +12,7 @@ public class DbConnection {
 			System.out.println("connecting---");
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
 //			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/gameomania?autoReconnect=true&serverTimezone=UTC", "root","gloadmin123");
-			conn = DriverManager.getConnection("jdbc:mysql://91.205.172.123:3306/gameomania?useSSL=false&enabledTLSProtocols=TLSv1.2&serverTimezone=UTC", "root","gloadmin123");
+			conn = DriverManager.getConnection("jdbc:mysql://91.205.172.123:3306/gameomania?useSSL=false&enabledTLSProtocols=TLSv1.2&serverTimezone=UTC", "visiontrek","0Gloadmin123$");
 
 			System.out.println("gameomania DB connected");
 		} catch (Exception e) {
