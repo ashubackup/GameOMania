@@ -54,8 +54,8 @@ public class Configurator {
     public void loadProps() {
         try {
               props = new Properties();
- //             props.load(new FileInputStream("/home/live-tomcat/apache-tomcat-9.0.82/webapps/GameOMania/WEB-INF/classes/getQueries"));
-            props.load(new FileInputStream("E:\\JavaAllProjects\\91Server\\testingtomcat\\GameOMania\\WEB-INF\\classes\\getQueries"));
+              props.load(new FileInputStream("/home/testingtomcat/webapps/GameOMania/WEB-INF/classes/getQueries"));
+          //  props.load(new FileInputStream("E:\\JavaAllProjects\\91Server\\testingtomcat\\GameOMania\\WEB-INF\\classes\\getQueries"));
        //     props.load(new FileInputStream("conf/getQueries"));
         } catch (Exception e) {
             e.printStackTrace();
